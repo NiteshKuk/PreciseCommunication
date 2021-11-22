@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:background="@drawable/dialog_background_evoting_confirmation"
+    android:filterTouchesWhenObscured="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/common_dialog_header" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:background="@color/light_gray" />
+
+    <com.nitesh.dubaiinterview.CustomPackage.TypefacedTextView
+        android:id="@+id/tvErrorMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="No Internet Connection"
+        android:textColor="@color/black"
+        android:textSize="14dp" />
+
+    <LinearLayout
+        android:id="@+id/confirmation_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/Precise_button_layout_padding_left"
+        android:paddingEnd="@dimen/Precise_button_layout_padding_right"
+        android:weightSum="1">
+        <com.nitesh.dubaiinterview.CustomPackage.TypefaceButton
+            android:id="@+id/btnCancel"
+            style="@style/PreciseCancelButton"
+            android:layout_height="40dp"
+            android:backgroundTint="@color/yellow"
+            app:customTypeface="latoSemibold"
+            android:layout_marginStart="@dimen/Precise_button_margin_left"
+            android:layout_marginLeft="@dimen/Precise_button_margin_left"
+            android:layout_weight="0.5"
+            android:visibility="gone"
+            android:text="@string/cancel" />
+
+        <com.nitesh.dubaiinterview.CustomPackage.TypefaceButton
+            android:id="@+id/btnNext"
+            style="@style/PreciseNextButton"
+            android:layout_height="40dp"
+            android:backgroundTint="@color/yellow"
+            app:customTypeface="latoSemibold"
+            android:layout_marginStart="@dimen/Precise_button_margin_left"
+            android:layout_weight="0.5"
+            android:text="@string/next" />
+    </LinearLayout>
+
+</LinearLayout>

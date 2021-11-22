@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="orderbook_details">6sp</dimen>
+    <dimen name="activity_padding_place">16dp</dimen>
+    <dimen name="placeholder_image">50dp</dimen>
+    <dimen name="placeholder_text_height">8dp</dimen>
+    <dimen name="activity_padding_horizontal">16dp</dimen>
+    <dimen name="padding_10">10dp</dimen>
+    <dimen name="name">15dp</dimen>
+    <dimen name="chef">12dp</dimen>
+    <dimen name="timestamp">11dp</dimen>
+    <dimen name="description">15dp</dimen>
+    <dimen name="price">13dp</dimen>
+    <dimen name="dashboardname">40sp</dimen>
+
+    <!---->
+
+    <!--text sizes -->
+    <dimen name="text_medium">16sp</dimen>
+    <dimen name="txt_title">18sp</dimen>
+    <dimen name="txt_text">16sp</dimen>
+    <dimen name="txt_content_text">14sp</dimen>
+    <dimen name="txt_small_result">11sp</dimen>
+    <dimen name="text_extra_large">24sp</dimen>
+    <dimen name="text_extra_large_small">22sp</dimen>
+
+    <!--Spacing -->
+    <dimen name="horizontal_spacing">7dp</dimen>
+
+    <!-- material dialog-->
+    <dimen name="underline_top_spacing">8dp</dimen>
+    <dimen name="underline_bottom_spacing">4dp</dimen>
+    <dimen name="error_label_spacing">12dp</dimen>
+    <dimen name="floating_label_top_spacing">4dp</dimen>
+    <dimen name="floating_label_bottom_spacing">8dp</dimen>
+    <dimen name="floating_label_inside_spacing">12dp</dimen>
+    <dimen name="right_left_spinner_padding">8dp</dimen>
+    <dimen name="label_text_size">12sp</dimen>
+    <dimen name="label_text_size_mini">16sp</dimen>
+    <dimen name="text_size_ten_sp">10sp</dimen>
+    <dimen name="min_content_height">20dp</dimen>
+
+    <dimen name="title_bar_text">18sp</dimen>
+    <dimen name="footer_height">50sp</dimen>
+
+    <!-- goibibo -->
+    <dimen name="txt_medium">16sp</dimen>
+    <dimen name="txt_small">11sp</dimen>
+    <dimen name="txt_middle">14sp</dimen>
+    <dimen name="activity_padding">4dp</dimen>
+
+
+    <!-- ++++++++++++++++++++++++++ PINVIEW ++++++++++++++++++++++++ -->
+
+    <dimen name="space_between_pinbox">7dp</dimen>
+    <dimen name="pin_text_size">16dp</dimen>
+    <dimen name="pin_size">24dp</dimen>
+    <dimen name="edittext_padding">8dp</dimen>
+    <!--
+</style> -->
+
+
+    <dimen name="dialer_height">80dp</dimen><!--80dp-->
+    <dimen name="dialer_width">80dp</dimen><!--100dp-->
+
+    <!-- @PKMay15 For spots loader at UploadPan fragment -->
+    <dimen name="spot_size">4dp</dimen>
+
+    <!-- ArcProgressView RechargeActivity -->
+    <dimen name="arcProgressSize">150dp</dimen>
+    <dimen name="arcFrameLayout">152dp</dimen>
+
+
+    <dimen name="toolbar_title_size">15sp</dimen>
+    <dimen name="toolbar_icons_size">50dp</dimen>
+    <dimen name="toolbar_height">50dp</dimen>
+
+    <!-- @PKJun02 Recharge Status dimens -->
+    <dimen name="bottom_iv_width_new">280dp</dimen>
+    <dimen name="bottom_iv_width">100dp</dimen>
+    <dimen name="iv_top_height">100dp</dimen>
+    <dimen name="iv_top_width">100dp</dimen>
+    <dimen name="recharge_amount_text_size">25sp</dimen>
+    <dimen name="button_height">45dp</dimen>
+    <dimen name="button_width">170dp</dimen>
+    <dimen name="line_width">50dp</dimen><!--35 mdpi -->
+    <dimen name="button_text_size">15sp</dimen>
+    <dimen name="bottom_status_text_size">18sp</dimen>
+
+
+    <!-- @PKJun15 CVV in transparent activity New design-->
+    <dimen name="cvvCardTypeSize">13sp</dimen>
+    <dimen name="cvvCardNumberSize">13sp</dimen>
+    <!--<dimen name="cvvCardImageWidth">100dp</dimen>-->
+    <dimen name="cvvCardImageHeight">55dp</dimen>
+    <dimen name="cvvActionBarHeight">50dp</dimen>
+    <dimen name="bottom_operator_details_text_size">10sp</dimen>   <!--15sp-->
+    <dimen name="bottom_date_time_text_size">13sp</dimen>
+    <dimen name="bottom_status_margin_top">6dp</dimen>
+    <dimen name="rechargProgressSecondsTextSize">50sp</dimen>
+    <dimen name="rechargProgressSecondsLabelTextSize">18sp</dimen>
+    <dimen name="rechargeStatusProgressStrokeWidth">15dp</dimen>
+
+
+    <!-- @FS June 19-06-2017 -->
+    <dimen name="ver_set_address_txt">14sp</dimen>
+    <dimen name="ver_set_apointment_txt">20sp</dimen>
+    <dimen name="ver_set_btn_txt">14sp</dimen>
+    <dimen name="ver_set_logo_margin">20dp</dimen>
+    <dimen name="ver_set_apointment_margin">35dp</dimen>
+
+    <dimen name="small_divider">1dp</dimen>
+
+
+    <dimen name="zomato_label_small">12sp</dimen>
+    <dimen name="zomato_label_text_small">14sp</dimen>
+    <dimen name="zomato_divider">5dp</dimen>
+    <dimen name="zomato_restro_ratings">11sp</dimen>
+        <dimen name="design_fab_image_size">30sp</dimen>
+        <dimen name="design_fab_size_mini">50dp</dimen>
+    <!-- zomato restro details-->
+    <dimen name="zomato_text_medium">18sp</dimen>
+    <dimen name="zomato_text_small">14sp</dimen>
+
+    <!-- map info -->
+    <dimen name="info_window_title">14sp</dimen>
+    <dimen name="info_window_down_arrow_width">25dp</dimen>
+
+    <!--collapsing layout-->
+    <dimen name="detail_backdrop_height">256dp</dimen>
+
+    <!-- @FS July 3 17 user img_profile-->
+    <dimen name="user_profile_banner_height">170dp</dimen>
+    <dimen name="user_profile_image_width">70dp</dimen>
+    <dimen name="user_profile_image_height">70dp</dimen>
+    <dimen name="user_profile_small_w">60dp</dimen>
+    <dimen name="user_profile_small_h">60dp</dimen>
+    <dimen name="user_profile_tab_height">50dp</dimen>
+    <!-- @FS July 3 17 fragment_account_success-->
+    <dimen name="acc_success_indicator_ht">30dp</dimen>
+
+    <!-- @FS 7-7-17 ConfirmUserProfile -->
+    <dimen name="confirm_userprofile_banner_height">95dp</dimen>
+    <dimen name="confirm_userprofile_title_margin_bottom">20dp</dimen>
+    <dimen name="confirm_userprofile_title_margin_top">20dp</dimen>
+
+
+    <!--@FS 07-07-2017 general dimens-->
+    <dimen name="Precise_cardview_elevation">5dp</dimen>
+    <dimen name="Precise_text_title_large">20dp</dimen>
+    <dimen name="Precise_text_title_medium">16dp</dimen>
+    <dimen name="Precise_edit_text_size">14dp</dimen>
+    <dimen name="Precise_edit_text_padding_bottom">15dp</dimen>
+    <dimen name="Precise_edit_text_padding_left">5dp</dimen>
+    <dimen name="Precise_textview_size">12dp</dimen>
+    <dimen name="Precise_textview_small_size">10dp</dimen>
+    <dimen name="Precise_button_layout_height">65dp</dimen>
+    <dimen name="Precise_button_height">40dp</dimen>
+    <dimen name="Precise_button_layout_padding_left">20dp</dimen>
+    <dimen name="Precise_button_layout_padding_right">20dp</dimen>
+    <dimen name="Precise_button_layout_padding_bottom">3dp</dimen>
+    <dimen name="Precise_button_layout_padding_top">3dp</dimen>
+    <dimen name="Precise_button_margin_left">5dp</dimen>
+    <dimen name="Precise_button_margin_right">5dp</dimen>
+    <dimen name="Precise_otp_key_text_size">11dp</dimen>
+    <dimen name="Precise_num_key_text_size">22dp</dimen>
+
+
+    <!-- @FS 07-07-2017 -->
+    <dimen name="onboarding_success_label_congracts">15dp</dimen>
+    <dimen name="onboarding_success_label_idndetails">14dp</dimen>
+    <dimen name="onboarding_success_img_width">200dp</dimen>
+    <dimen name="onboarding_success_img_height">150dp</dimen>
+
+
+    <!-- SWAPNIL @3-7-2017 Fund transfer START-->
+    <dimen name="header_screen_title_font">14dp</dimen>
+    <dimen name="lbl_text">12dp</dimen>
+    <dimen name="lbl_value_text">14dp</dimen>
+    <dimen name="manage_margin_left">10dp</dimen>
+    <dimen name="common_margin">5dp</dimen>
+    <dimen name="manage_bene_row_height">50dp</dimen>
+    <dimen name="manage_bene_image_padding">15dp</dimen>
+    <dimen name="edit_text_right_image">30dp</dimen>
+    <dimen name="edit_text_right_image_padding">3dp</dimen>
+    <dimen name="bottom_button_height">40dp</dimen>
+    <dimen name="view_line_margin_left">8dp</dimen>
+    <dimen name="view_line_height">1dp</dimen>
+    <dimen name="common_view_margin_all">16dp</dimen>
+    <dimen name="checkbox_save_height">25dp</dimen>
+    <dimen name="checkbox_save_width">25dp</dimen>
+    <dimen name="button_margin_bottom">10dp</dimen>
+    <dimen name="scroll_padding_bottom">20dp</dimen>
+    <!--recent transaction row START -->
+    <!-- recent transaction END -->
+
+    <!--beneficiary row START-->
+    <dimen name="left_image_height">40dp</dimen>
+    <dimen name="left_image_width">40dp</dimen>
+    <dimen name="img_mobile_icon">20dp</dimen>
+    <dimen name="mobile_no_font">12dp</dimen>
+    <dimen name="right_image_height">40dp</dimen>
+    <dimen name="right_image_width">40dp</dimen>
+    <!-- END -->
+
+    <!--beneficiary_contacts START -->
+    <dimen name="bene_contact_image_view">100dp</dimen>
+    <dimen name="img_camera_icon">30dp</dimen>
+    <dimen name="manage_bene_edit_img">20dp</dimen>
+    <!-- END -->
+
+
+    <!--END-->
+
+    <!-- @PKJuly12 Scrolling toolbar /lopbar below the action bar -->
+    <dimen name="loopbarHeight">50dp</dimen>
+    <dimen name="loopbarTextSize">13.5dp</dimen>
+    <dimen name="loopbarNotificationTextSize">8dp</dimen>
+    <dimen name="loopbarStripHeight">3dp</dimen>
+    <dimen name="loopbarItemWidth">100dp</dimen>
+    <dimen name="loopbarItemHeight">50dp</dimen>
+    <dimen name="dashboardDropdownArrowWidth">50dp</dimen>
+    <dimen name="dashboardDropdownArrowHeight">25dp</dimen>
+    <dimen name="dashboardNewPaymentsHeight">110dp</dimen>
+    <dimen name="fundtransfer_subsection_card_height">90dp</dimen>
+    <dimen name="newPaymentImgDimen">40dp</dimen>
+    <dimen name="fundtransferImgDimen">32dp</dimen>
+    <dimen name="newPaymentImgPadding">2dp</dimen>
+    <dimen name="newPaymentNameSize">12dp</dimen>
+    <dimen name="fundtransfernamesize">10dp</dimen>
+    <dimen name="fundtransferimgpadding">2dp</dimen>
+
+
+    <!-- @FS 10-07-2017 userlogin-mpin -->
+    <dimen name="userlogin_img_width">80dp</dimen>
+    <dimen name="userlogin_img_margin_right">35dp</dimen>
+    <dimen name="userlogin_img_margin_top">35dp</dimen>
+    <dimen name="userlogin_lock_imgwh">25dp</dimen>
+    <dimen name="userlogin_name_txt_size">25dp</dimen>
+    <dimen name="userlogin_welcome_txt">22dp</dimen>
+    <dimen name="userlogin_edit_txt">16dp</dimen>
+    <dimen name="userlogin_txt_size">12dp</dimen>
+
+
+    <dimen name="poa_status_text_view">16dp</dimen>
+    <dimen name="poa_status_edit_txt">14dp</dimen>
+
+    <!--@hl 23-04-2019 img size for single transaction-->
+    <dimen name="single_transaction_imgSize">280</dimen>
+
+    <!-- @PKJuly15 -->
+    <dimen name="paymentsEtHeight">40dp</dimen>
+    <dimen name="paymentsEtPadding">5dp</dimen>
+
+    <!--manage_bene fragment @SKJuly17 -->
+    <dimen name="manage_search_icon">30dp</dimen>
+    <dimen name="ifsc_pager_height">230dp</dimen>
+
+    <!--bank suggestion text-->
+    <dimen name="suggestion_left">15dp</dimen>
+    <dimen name="suggestion_right">15dp</dimen>
+    <dimen name="suggestion_top">10dp</dimen>
+    <dimen name="arrow_size">30dp</dimen>
+    <dimen name="page_no_left">20dp</dimen>
+    <dimen name="page_no_right">20dp</dimen>
+    <dimen name="pager_tab">10dp</dimen>
+
+    <!--search ifsc bank row-->
+    <dimen name="ifsc_text_padding_left">10dp</dimen>
+    <dimen name="ifsc_text_padding_right">10dp</dimen>
+    <dimen name="select_type_of_account">50dp</dimen>
+
+    <!-- 29/07/2017 activity accounts landing-->
+
+    <!--31/07/2017 accounts dash fragment-->
+    <dimen name="acc_fragment_header_title">12dp</dimen>
+    <dimen name="acc_fragment_text_title">12dp</dimen>
+    <dimen name="acc_fragment_text_subtitle">11dp</dimen>
+    <dimen name="acc_fragment_text_number">18dp</dimen>
+
+    <!--01-08-2017 acc sub fragments savings. -->
+    <dimen name="acc_fragment_acc_strip_height">50dp</dimen>
+
+    <!-- demo account landing fragment-->
+    <dimen name="demo_acc_fragment_text">12dp</dimen>
+
+    <!--welcome screen-->
+    <dimen name="welcome_screen_image">40dp</dimen>
+    <dimen name="welcome_screen_layout_height">40dp</dimen>
+    <dimen name="welcome_text_margin_left">5dp</dimen>
+    <dimen name="welcome_margin">20dp</dimen>
+    <dimen name="cardview_margin">15dp</dimen>
+    <dimen name="cardview_left">30dp</dimen>
+    <dimen name="cardview_right">20dp</dimen>
+    <dimen name="sweepout_move_fund_top">15dp</dimen>
+    <dimen name="benefit_right">10dp</dimen>
+    <dimen name="benefit_top">10dp</dimen>
+    <dimen name="benefit_left">10dp</dimen>
+    <dimen name="dot_text_left">5dp</dimen>
+    <dimen name="dot_layout_margin_left">25dp</dimen>
+
+    <dimen name="button_bottom_margin">10dp</dimen>
+    <dimen name="welcome_button_bottom">25dp</dimen>
+
+    <dimen name="tab_not_selected">14dp</dimen>
+    <dimen name="tab_height">50dp</dimen>
+    <dimen name="tab_cat_height">48dp</dimen>
+    <dimen name="tab_padding">10dp</dimen>
+
+    <dimen name="newPaymentsRowWidth">115dp</dimen>
+    <dimen name="newPaymentsRowHeight">90dp</dimen>
+    <dimen name="favDashboardTv1">18sp</dimen>
+    <dimen name="favDashboardTv2">18sp</dimen>
+    <dimen name="dpManageProfileSize">80dp</dimen>
+    <dimen name="userDetailsManageProfileTextSize">11sp</dimen>
+    <dimen name="editDpManageProfileMarginBottom">15dp</dimen>
+    <dimen name="editDpManageProfileSize">15dp</dimen>
+    <dimen name="editIconManageProfileMarginRight">5dp</dimen>
+
+    <dimen name="account_font">13dp</dimen>
+    <dimen name="account_holder_name">14dp</dimen>
+    <dimen name="account_no_font">12dp</dimen>
+
+    <dimen name="appPermsTitle">14sp</dimen>
+    <dimen name="appPermsInfo">12sp</dimen>
+
+    <!-- ask cards 12-01-2018-->
+    <dimen name="askCardsImageSize">250dp</dimen>
+    <dimen name="askCardsImagePadding">40dp</dimen>
+
+    <!-- viewpager number indicator-->
+    <dimen name="ni_default_text_size">18sp</dimen>
+    <dimen name="ni_default_radius_max">24dp</dimen>
+    <dimen name="ni_default_radius_min">8dp</dimen>
+
+    <!-- Revised Choose an Option-->
+    <dimen name="option_card_top_margine">24dp</dimen>
+    <dimen name="cardview_revised_margin">10dp</dimen>
+    <dimen name="cardview_revised_left">25dp</dimen>
+    <dimen name="cardview_revised_right">15dp</dimen>
+
+    <dimen name="AddressSelectionVerticlePadding">7dp</dimen>
+    <dimen name="AddressSelectionHorizontalPadding">13dp</dimen>
+    <dimen name="AddressSelectionCornerRadius">9dp</dimen>
+
+
+    <!--<editor-fold desc="Card Layout dimens">-->
+    <dimen name="dummyTest">10px</dimen>
+    <dimen name="cardLayoutHeight">230dp</dimen>
+    <dimen name="cardLayoutHeightOnboarding">230dp</dimen>
+    <dimen name="cardLayoutExpiryDateTextSize">18sp</dimen>
+    <dimen name="cardLayoutCardNumberTextSize">20sp</dimen>
+    <dimen name="cardLayoutCardNameTextSize">15sp</dimen>
+    <!-- Common for all -->
+    <dimen name="cardLayoutShowCVVButtonWidth">80dp</dimen>
+    <dimen name="cardLayoutCVVBlockMarginTop">10dp</dimen>
+    <!--</editor-fold>-->
+
+    <dimen name="changeLogScrollViewHeight">120dp</dimen>
+    <dimen name="nomineeAddressSelectUITextSize">15sp</dimen>
+
+
+    <!--Bill Pay New Screens 08.02.2019-->
+
+    <dimen name="bottom_sheet_corner_radius">13dp</dimen>
+    <dimen name="bottom_sheet_top_padding">10dp</dimen>
+    <dimen name="layout_bg_corner_radius">7dp</dimen>
+    <dimen name="img_width_wallet_amount_payment_status">56dp</dimen>
+
+    <!--3 in 1 module 18.06.2019-->
+    <dimen name="image_close_width">25dp</dimen>
+    <dimen name="image_close_height">25dp</dimen>
+    <dimen name="poa_status_margin">5dp</dimen>
+    <dimen name="poa_status_side_margin">10dp</dimen>
+    <dimen name="poa_status_title_text_size">18sp</dimen>
+    <dimen name="link_acc_text_size">14sp</dimen>
+    <dimen name="poa_description_text_size">12sp</dimen>
+    <dimen name="status_title_text_size">16sp</dimen>
+    <dimen name="btn_side_margin">20dp</dimen>
+
+    <!-- Setup Auto Pay Dimens-->
+    <dimen name="setup_autopay_subtitle">15sp</dimen>
+    <dimen name="setup_autopay_checkbox_padding">5dp</dimen>
+    <dimen name="setup_autopay_betwn_flds_space">10dp</dimen>
+    <dimen name="setup_autopay_betwn_internal_flds_space">5dp</dimen>
+    <dimen name="setup_autopay_layout_margin_left">10dp</dimen>
+    <dimen name="setup_autopay_layout_margin_right">10dp</dimen>
+    <dimen name="setup_autopay_button_padding_left">30dp</dimen>
+    <dimen name="setup_autopay_button_padding_right">30dp</dimen>
+    <dimen name="setup_autopay_layout_margin_bottom">10dp</dimen>
+    <dimen name="setup_autopay_icon_size">40dp</dimen>
+    <dimen name="setup_autopay_layout_margin_top">10dp</dimen>
+
+    <dimen name="user_name_single_text_size">27sp</dimen>
+    <dimen name="user_profile_medium_h">65dp</dimen>
+    <dimen name="lbl_margin_top">20dp</dimen>
+
+
+    <dimen name="size_two_dp">2dp</dimen>
+    <dimen name="size_next_img">28dp</dimen>
+    <dimen name="new_recharge_section">300dp</dimen>
+    <dimen name="cvv_button_height">33dp</dimen>
+    <dimen name="fund_your_account">210</dimen>
+    <dimen name="size_five_dp">5dp</dimen>
+
+    <dimen name="qr_code_square_height">160dp</dimen>
+    <dimen name="qr_code_square_height_bottom">180dp</dimen>
+    <dimen name="qr_code_square_height_layout">170dp</dimen>
+    <dimen name="qr_code_square__overlay_view_margin">85dp</dimen>
+    <dimen name="qr_code_txt_title">15dp</dimen>
+    <dimen name="qr_code_txt_amount_value">20dp</dimen>
+    <dimen name="qr_code_txt_number_value">15dp</dimen>
+
+    <dimen name="upi_bank_logo_height">55dp</dimen>
+    <dimen name="upi_success_bank_logo_height">160dp</dimen>
+    <dimen name="upi_success_bank_logo_width">170dp</dimen>
+    <dimen name="billpay_manage_margin_left" tools:ignore="MissingDefaultResource">20dp</dimen>
+    <dimen name="billpay_manage_margin_right" tools:ignore="MissingDefaultResource">20dp</dimen>
+    <dimen name="billpay_manage_margin_top" tools:ignore="MissingDefaultResource">10dp</dimen>
+    <dimen name="billpay_manage_provider_icon" tools:ignore="MissingDefaultResource">25dp</dimen>
+    <dimen name="txn_details_manage_margin_top" tools:ignore="MissingDefaultResource">3dp</dimen>
+    <dimen name="txn_details_layout_manage_margin_top" tools:ignore="MissingDefaultResource">5dp
+    </dimen>
+
+</resources>

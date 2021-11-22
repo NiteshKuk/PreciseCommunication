@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.nitesh.dubaiinterview.CustomPackage.TypefacedTextView
+        android:id="@+id/txtMessage"
+        customTypeface="robotoLight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+    <!-- android:text="@string/zomato_progress_msg" -->
+</LinearLayout>

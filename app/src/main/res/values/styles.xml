@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="PreciseCancelButton" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:background">@drawable/comman_footer_left</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center</item>
+        <item name="customfont">latoSemibold</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+
+    <style name="PreciseNextButton" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:background">@drawable/btn_next_state_back_color</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="customfont">latoSemibold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+
+    <style name="PreciseLoginButton" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:background">@drawable/btn_yellow_rounded_background</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="customfont">latoSemibold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+
+    <style name="NewDialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="SpotsDialogDefault" parent="android:Theme.DeviceDefault.Light.Dialog">
+        <item name="DialogTitleAppearance">@android:style/TextAppearance.Medium</item>
+        <item name="DialogTitleText">Loading…</item>
+        <item name="DialogSpotColor">@android:color/holo_orange_dark</item>
+        <item name="DialogSpotCount">5</item>
+    </style>
+
+    <declare-styleable name="DividerView">
+        <attr name="color" format="color" />
+        <attr name="dashLength" format="dimension" />
+        <attr name="dashGap" format="dimension" />
+        <attr name="dashThickness" format="dimension" />
+        <attr name="orientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+    </declare-styleable>
+    <style name="TilStyle" parent="Widget.Design.TextInputLayout">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">@color/Precise_edit_text_hint_color</item>
+        <item name="hintTextColor">@color/black</item>
+    </style>
+    <style name="PreciseTVLatoRegularLarge" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/Precise_edit_text_padding_bottom</item>
+        <item name="android:textColor">@color/Precise_textview_color</item>
+    </style>
+    <style name="MyRandomTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/yellow</item>
+        <item name="colorPrimaryVariant">@color/chef</item>
+        <item name="colorOnPrimary">@color/yellow</item>
+        <item name="colorSecondary">@color/black</item>
+        <item name="colorSecondaryVariant">@color/chef</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+    </style>
+    <style name="EditText_Notice">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:paddingBottom">@dimen/Precise_edit_text_padding_bottom</item>
+        <item name="android:paddingLeft">@dimen/Precise_edit_text_padding_left</item>
+        <item name="paddingStart">@dimen/Precise_edit_text_padding_left</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textCursorDrawable">@drawable/cursordrawable</item>
+        <item name="android:textSize">@dimen/Precise_edit_text_size</item>
+        <item name="android:textColor">@color/Precise_edit_text_color</item>
+        <item name="android:textColorHint">@color/Precise_edit_text_hint_color</item>
+        <item name="android:inputType">textCapSentences</item>
+    </style>
+    <style name="PreciseEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:paddingBottom">@dimen/Precise_edit_text_padding_bottom</item>
+        <item name="android:paddingLeft">@dimen/Precise_edit_text_padding_left</item>
+        <item name="paddingStart">@dimen/Precise_edit_text_padding_left</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:lines">1</item>
+        <item name="android:textCursorDrawable">@drawable/cursordrawable</item>
+        <item name="android:textSize">@dimen/Precise_edit_text_size</item>
+        <item name="android:textColor">@color/Precise_edit_text_color</item>
+        <item name="android:inputType">textCapSentences</item>
+    </style>
+    <style name="FavDashRippleStyleView" parent="RippleStyleView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="RippleStyleView">
+        <item name="rv_color">#80000000</item>
+        <item name="rv_framerate">@integer/rippleFrameRate</item>
+        <item name="rv_rippleDuration">@integer/rippleDuration</item>
+        <item name="rv_type">rectangle</item>
+    </style>
+    <style name="RippleStyle">
+        <item name="rv_color">#80ffffff</item>
+        <item name="rv_framerate">@integer/rippleFrameRate</item>
+        <item name="rv_rippleDuration">@integer/rippleDuration</item>
+        <item name="rv_type">rectangle</item>
+    </style>
+    <style name="BottomSheetDialogTheme" parent="BaseBottomSheetDialog" />
+    <style name="BaseBottomSheetDialog" parent="@style/Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="bottomSheetStyle">@style/BottomSheet</item>
+    </style>
+    <style name="BottomSheet" parent="@style/Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/bg_rounded_bottomsheet</item>
+    </style>
+    <style name="PauseDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_up_mpin_dialog</item>
+        <item name="android:windowExitAnimation">@anim/slide_down_mpin_dialog</item>
+    </style>
+    <style name="TimePickerTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/yellow</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="leaf">
+        <item name="cornerSizeTopLeft">70%</item>           //can specify corner position
+        <!--<item name="cornerFamilyTopLeft">cut</item>-->
+        <item name="cornerSizeBottomRight">70%</item>
+        <!--<item name="cornerFamilyBottomRight">cut</item>-->
+    </style>
+</resources>

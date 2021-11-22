@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="textColorPrimary">#212121</color>
+    <color name="textColorSecondary">#757575</color>
+    <color name="puregray">#f1efef</color>
+    <color name="babypink">#F50057</color>
+
+
+    <color name="colorPrimary">#EFC227</color>
+    <color name="colorPrimaryDark">#F6A821</color>
+    <color name="colorAccent">#EFC227</color>
+    <color name="themeYellow">#EFC227</color>
+    <color name="themeBlack">#2F2F2F</color>
+    <color name="themeOrange">#F6A821</color>
+    <color name="themeOrangeTransparent">#80F6A821</color>
+    <color name="faint_blue">#E8F3F7</color>
+    <color name="faint_grey">#D3D3D3</color>
+
+    <color name="colorPrimaryplace">#d91248</color>
+    <color name="colorPrimaryDarkplace">#d91248</color>
+    <color name="colorAccentplace">#3ad23e</color>
+    <color name="placeholder_bg">#dddddd</color>
+    <color name="item_name">#0c0c0c</color>
+    <color name="description">#1a1a1a</color>
+    <color name="chef">#777</color>
+    <color name="timestamp">#777</color>
+
+    <color name="light_gray">#E6E6E6</color>
+    <color name="light_gray_background">#F2f2f2</color>
+
+    <!--In blue theme 80062e60 R.anim.activity_back_press_exit-->
+    <color name="selectedDrawerTab">#F4BB24</color>
+    <color name="unselectedDrawerTab">#00000000</color>
+
+    <color name="declarationTitle">#626262</color>
+    <color name="declarationContent">#AEAEAE</color>
+    <color name="declarationTerms">#595959</color>
+
+    <color name="border_color">#d8dcdf</color>
+    <color name="progressbar_color">#21d85c</color>
+    <color name="text_color">#2f2f2f</color>
+    <color name="text_color_light">#adadad</color>
+    <!--ebebeb-->
+
+    <color name="text_color_grey">#4a4a4a</color>
+
+    <color name="text_color1">#939393</color>
+
+    <color name="background1">#EFEFEF</color>
+    <color name="text_red">#B44966</color>
+    <color name="bright_red">#F03E4E</color>
+    <color name="text_green">#72b469</color><!--#92AF8E-->
+    <color name="green">#55994c</color><!--#92AF8E-->
+
+    <!--For Uber view and icon colors @PKJAN09-->
+    <color name="iconColor">#d8dcdf</color>
+
+    <color name="text_color_white">#FFFFFF</color>
+
+    <color name="text_color_dark">#717171</color>
+
+    <color name="background">#ffffff</color>
+
+    <!-- circular indicator -->
+    <bool name="default_circle_indicator_centered">true</bool>
+    <color name="default_circle_indicator_fill_color">#FFFFFFFF</color>
+    <color name="default_circle_indicator_page_color">#00000000</color>
+    <integer name="default_circle_indicator_orientation">0</integer>
+    <dimen name="default_circle_indicator_radius">3dp</dimen>
+    <bool name="default_circle_indicator_snap">false</bool>
+    <color name="default_circle_indicator_stroke_color">#FFDDDDDD</color>
+    <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
+
+    <dimen name="default_line_indicator_line_width">12dp</dimen>
+    <dimen name="default_line_indicator_gap_width">4dp</dimen>
+    <dimen name="default_line_indicator_stroke_width">1dp</dimen>
+    <color name="default_line_indicator_selected_color">#FF33B5E5</color>
+    <color name="default_line_indicator_unselected_color">#FFBBBBBB</color>
+    <bool name="default_line_indicator_centered">true</bool>
+
+    <!-- circular indicator finish here -->
+
+    <!-- material dialog-->
+    <color name="disabled_color">#44000000</color>
+    <color name="error_color">#E7492E</color>
+    <color name="transparent">#fff</color>
+
+
+    <color name="textbox_pinview">#282828</color>
+
+    <color name="transparent_black">#99000000</color>
+
+    <!-- @PKMay16 -->
+    <color name="curveColor">#F5ECDC</color>
+    <color name="bluedark">#1C2B49</color>
+
+    <!-- @PKMay09 FOR_BUNDLE_KEY RECHARGE SCREENS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <color name="pistaColor">#80C359</color>
+    <color name="pistaColorTransparent">#3380C359</color>
+    <color name="buttonyellow">#E4A438</color>
+    <color name="yellow">#ffc903</color>
+
+    <color name="recharge_success_bottom_part">@color/pistaColor</color>
+    <color name="recharge_success_bottom_part_transparent">@color/pistaColorTransparent</color>
+    <color name="recharge_pending_bottom_part">#EDD5A9</color>
+    <color name="recharge_pending_bottom_part_transparent">#33EDD5A9</color>
+    <color name="recharge_failed_bottom_part">#FFA5A5</color>
+    <color name="recharge_failed_bottom_part_transparent">#33FFA5A5</color>
+    <color name="jiffy_toolbar_background">#1B1B1B</color>
+    <color name="jiffy_revised_toobar_background">#fdfbef</color>
+
+    <color name="color_maroon">#683537</color>
+    <color name="color_orange">#D26B30</color>
+    <!-- @PKMay09 /FOR_BUNDLE_KEY RECHARGE SCREENS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <color name="dark_gray">#4a4a4a</color>
+
+    <color name="toggle_btn_off_color">#a7a7a7</color>
+
+    <color name="payment_background_color">#DDDDDD</color>
+    <color name="success_green">#80c458</color>
+
+
+    <!-- mobilefnf.Precisepb.customwidget.pin ~~ PinEntryView -->
+    <color name="pin_normal">#6B767E</color>
+
+    <color name="upi_pin_key_color">#1B3181</color>
+    <color name="recharge_account_tab_bckgrnd">#f4f1f1</color>
+
+    <color name="transparentBlack">#40000000</color>
+
+    <color name="dark_gr">#a7a7a7</color>
+    <color name="soft_grey">#9E9E9E</color>
+
+    <color name="pattern_view_line">#3f4141</color>
+
+    // FS 17 JUN
+    <color name="light_grey">#e0e0e0</color>
+    <color name="app_blue">#2F40E6</color>
+    <color name="tab_background_creamy_color">#F5F1F2</color>
+
+    <!-- material dialog-->
+    <color name="transparent_white">#fff</color>
+
+    <!-- zomato -->
+    <color name="zomato_bg_color">#e9e6e6</color>
+    <color name="zomato_light">#9d9e9e</color>
+    <color name="new_light_grey">#686868</color>
+
+    <color name="colorFAB2">#3f4040</color>
+    <color name="colorFAB1">#3f4040</color>
+
+    <!-- 22-4-2017 -->
+    <color name="red">#D71111</color>
+    <color name="colorGrey">#d7d7d7</color>
+
+
+    <color name="blackLight">#7e7d7d</color>
+    <color name="cab_color">#3C9EC5</color>
+
+    <color name="tab_unselected_text">#818181</color>
+    <color name="search_ifsc_color">#dfdede</color>
+    <!-- FS 7 july-->
+    <color name="Precise_edit_text_color">#000000</color>
+    <color name="Precise_textview_color">#000000</color>
+    <color name="Precise_edit_text_hint_color">#767676</color>
+    <color name="Precise_edit_text_hint_color_old">#A9A9A9</color>
+    <color name="overlay_color">#b9ffffff</color>
+
+    <color name="mpin_bg">#0d0d0d</color>
+
+    <!-- @PKAug07 -->
+    <color name="recentAmount">#E82223</color>
+
+    <color name="row_cards_bg">#3d3c3c</color>
+
+    <!-- @FS Oct10-->
+    <color name="pi_chart_1">#f0d267</color>
+    <color name="pi_chart_2">#522b4c</color>
+    <color name="pi_chart_3">#fc5b7b</color>
+    <color name="pi_chart_4">#46c2c0</color>
+
+    <color name="money_sent">#989f4271</color>
+    <color name="money_received">#f2674a</color>
+
+    <color name="rs_color">#f5e211</color>
+
+    <color name="seekbar_empty_color">#adadad</color>
+    <color name="seekbar_fill_color">#EFC227</color>
+    <color name="new_btn_background">#598BAE</color>
+    <color name="dialog_header_background">#EFF0F1</color>
+    <color name="login_screen_new_color">#FFFAF0</color>
+
+    <!--   <item name="blue" type="color">#FF33B5E5</item>
+       <item name="purple" type="color">#FFAA66CC</item>
+       <item name="green1" type="color">#FF99CC00</item>
+       <item name="orange" type="color">#FFFFBB33</item>
+       <item name="red1" type="color">#FFFF4444</item>-->
+
+    <!-- Old colors -->
+    <!--<item name="contactred" type="color">#ed524e</item>-->
+    <!--<item name="contactorange" type="color">#ff6f42</item>-->
+    <!--<item name="contactakyblue" type="color">#27b5f5</item>-->
+    <!--<item name="contactgreen" type="color">#65ba69</item>-->
+    <!--<item name="contactlightgreen" type="color">#65ba69</item>-->
+    <!--<item name="contactdarkgreen" type="color">#25a499</item>-->
+    <!--<item name="contactblue" type="color">#5b6abf</item>-->
+    <!--<item name="contactyellow" type="color">#ffa624</item>-->
+
+    <!-- [24 09 2018 11:47 AM IST]
+         New colors as provided by Sheetal
+         [pranav] https://mail.google.com/mail/u/0/#inbox/FMfcgxvzKbRHxCDjpZFsTmBQnxqHNGjt
+    -->
+    <item name="contactred" type="color">#d2691e</item>
+    <item name="contactorange" type="color">#6e3d3c</item>
+    <item name="contactakyblue" type="color">#d4af37</item>
+    <item name="contactgreen" type="color">#ab644b</item>
+    <item name="contactlightgreen" type="color">#cfb53b</item>
+    <item name="contactdarkgreen" type="color">#778899</item>
+    <item name="contactblue" type="color">#d4af37</item>
+    <item name="contactyellow" type="color">#6e3d3c</item>
+
+    <!--New Status Screen msg color-->
+    <item name="status_color_success" type="color">#1CC96A</item>
+    <item name="status_color_pending" type="color">#e38112</item>
+    <item name="status_color_failure" type="color">#fe0f31</item>
+
+
+    <integer-array name="contactcolors">
+        <item>@color/contactred</item>
+        <item>@color/contactorange</item>
+        <item>@color/contactakyblue</item>
+        <item>@color/contactgreen</item>
+        <item>@color/contactlightgreen</item>
+        <item>@color/contactyellow</item>
+        <item>@color/contactblue</item>
+    </integer-array>
+
+    <color name="buttonDarkGreyNew">#424242</color>
+    <color name="poaStatusBackground">#F8B356</color>
+
+    <color name="light_green">#5dc6a7</color>
+    <color name="light_orange">#f29665</color>
+    <color name="light_blue">#86bce2</color>
+    <color name="light_purple">#b2a0dc</color>
+    <color name="light_red">#fa7f81</color>
+    <color name="light_yellow">#f9bc52</color>
+
+
+    <array name="array_dot_active">
+        <item>@color/black</item>
+        <item>@color/black</item>
+        <item>@color/black</item>
+        <item>@color/black</item>
+        <item>@color/black</item>
+        <item>@color/black</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>#f2f2f2</item>
+        <item>#f2f2f2</item>
+        <item>#f2f2f2</item>
+        <item>#f2f2f2</item>
+        <item>#f2f2f2</item>
+        <item>#f2f2f2</item>
+    </array>
+
+    <array name="array_dot_active_ekyc">
+        <item>@color/yellow</item>
+        <item>@color/yellow</item>
+        <item>@color/yellow</item>
+    </array>
+
+    <array name="array_dot_inactive_ekyc">
+        <item>#f2f2f2</item>
+        <item>#f2f2f2</item>
+        <item>#f2f2f2</item>
+    </array>
+
+    <color name="gray_color">#f6f6f6</color>
+    <color name="divider_color">#d8d8d8</color>
+    <color name="heading_color">#1b1b1b</color>
+    <color name="subtitle_color">#949494</color>
+
+    <color name="scratch_start_gradient">#e5e5e5</color>
+    <color name="scratch_end_gradient">#cccccc</color>
+
+    <color name="restructure_light_grey">#686868</color>
+    <color name="restructure_amount_debit">#E82223</color>
+    <color name="restructure_amount_credit">#80C458</color>
+</resources>

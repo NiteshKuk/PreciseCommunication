@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.MainActivity">
+    <com.nitesh.dubaiinterview.CustomPackage.TypefacedTextView
+        android:id="@+id/tv_companytag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bungee"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/padding_10"
+        android:background="@color/light_gray"
+        android:text="Precise Communications "
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+    <RelativeLayout
+        android:layout_below="@+id/tv_companytag"
+        android:id="@+id/rv_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <com.nitesh.dubaiinterview.CustomPackage.TypefacedTextView
+            android:id="@+id/tv_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bungee"
+            android:gravity="center_horizontal"
+            android:text="@string/register"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <com.nitesh.dubaiinterview.CustomPackage.TypefacedTextView
+            android:id="@+id/tv_user_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_register"
+            android:gravity="center_horizontal"
+            android:text="@string/welcome_to_precise_communications_registration_screen"
+            android:textSize="14sp"
+            app:customTypeface="latoSemibold" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rv_header">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:id="@+id/fl_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/suggestion_top"
+                android:layout_marginTop="@dimen/suggestion_top"
+                android:visibility="visible">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/til_name"
+                    style="@style/TilStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.nitesh.dubaiinterview.CustomPackage.TypefacedEditText
+                        android:id="@+id/et_name"
+                        style="@style/PreciseEditText"
+                        android:layout_height="50dp"
+                        android:hint="Name"
+                        android:imeOptions="actionDone"
+                        android:inputType="text"
+                        android:text="" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/fl_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fl_name"
+                android:layout_marginLeft="@dimen/suggestion_top"
+                android:layout_marginTop="@dimen/suggestion_top"
+                android:visibility="visible">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/til_password"
+                    style="@style/TilStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.nitesh.dubaiinterview.CustomPackage.TypefacedEditText
+                        android:id="@+id/et_password"
+                        style="@style/PreciseEditText"
+                        android:layout_height="50dp"
+                        android:hint="Password"
+                        android:imeOptions="actionDone"
+                        android:inputType="textVisiblePassword"
+                        android:text="" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/fl_contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fl_password"
+                android:layout_marginLeft="@dimen/suggestion_top"
+                android:layout_marginTop="@dimen/suggestion_top"
+                android:visibility="visible">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/til_contact"
+                    style="@style/TilStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.nitesh.dubaiinterview.CustomPackage.TypefacedEditText
+                        android:id="@+id/et_contact"
+                        style="@style/PreciseEditText"
+                        android:layout_height="50dp"
+                        android:hint="Contact No"
+                        android:imeOptions="actionDone"
+                        android:inputType="number"
+                        android:maxLength="10"
+                        android:text="" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:id="@+id/fl_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fl_contact"
+                android:layout_marginLeft="@dimen/suggestion_top"
+                android:layout_marginTop="@dimen/suggestion_top"
+                android:visibility="visible">
+
+                <com.nitesh.dubaiinterview.CustomPackage.TypefaceButton
+                    android:id="@+id/btnNext"
+                    style="@style/PreciseCancelButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:backgroundTint="@color/yellow"
+                    android:text="Submit"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    app:customTypeface="latoSemibold" />
+
+            </FrameLayout>
+
+            <com.nitesh.dubaiinterview.CustomPackage.TypefacedTextView
+                android:id="@+id/tv_heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fl_button"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="Already User ? Login Here"
+                android:textColor="@color/text_color_grey"
+                android:textSize="12sp"/>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

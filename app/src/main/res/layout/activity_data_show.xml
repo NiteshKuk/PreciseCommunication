@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.DataShow">
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/mcv_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/suggestion_top"
+        android:layout_marginLeft="@dimen/suggestion_top"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="@dimen/suggestion_top"
+        android:layout_marginRight="@dimen/suggestion_top"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/bg_white_solid_yellow_rounded_corner"
+        android:theme="@style/Theme.MaterialComponents.Light"
+        android:visibility="visible"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="3dp"
+        app:strokeWidth="1dp">
+
+        <LinearLayout
+            android:id="@+id/holding_report"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/appBar"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/lay_from_fund_transfer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/suggestion_top"
+                    android:layout_marginBottom="@dimen/suggestion_top"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:weightSum="2">
+
+                            <com.nitesh.dubaiinterview.CustomPackage.TypefacedTextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.6"
+                                android:text="Currency ID"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"
+                                app:customTypeface="latoSemibold" />
+
+                            <com.nitesh.dubaiinterview.CustomPackage.TypefacedTextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.1"
+                                android:text=":"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"
+                                app:customTypeface="latoSemibold" />
+
+                            <com.nitesh.dubaiinterview.CustomPackage.TypefacedTextView
+                                android:id="@+id/tv_currency"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text=""
+                                android:textColor="@color/black"
+                                android:textSize="16sp"
+                                app:customTypeface="latoSemibold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/padding_10"
+                            android:orientation="horizontal"
+                            android:weightSum="2">
+
+                            <com.nitesh.dubaiinterview.CustomPackage.TypefacedTextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.6"
+                                android:text="Last Trade Price"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"
+                                app:customTypeface="latoSemibold" />
+
+                            <com.nitesh.dubaiinterview.CustomPackage.TypefacedTextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.1"
+                                android:text=":"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"
+                                app:customTypeface="latoSemibold" />
+
+                            <com.nitesh.dubaiinterview.CustomPackage.TypefacedTextView
+                                android:id="@+id/tv_last_trade_price"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text=""
+                                android:textColor="@color/black"
+                                android:textSize="16sp"
+                                app:customTypeface="latoSemibold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/padding_10"
+                            android:orientation="horizontal"
+                            android:weightSum="2">
+
+                            <com.nitesh.dubaiinterview.CustomPackage.TypefacedTextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.6"
+                                android:text="Lowest Ask"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"
+                                app:customTypeface="latoSemibold" />
+
+                            <com.nitesh.dubaiinterview.CustomPackage.TypefacedTextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.1"
+                                android:text=":"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"
+                                app:customTypeface="latoSemibold" />
+
+                            <com.nitesh.dubaiinterview.CustomPackage.TypefacedTextView
+                                android:id="@+id/tv_lowest_ask"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text=""
+                                android:textColor="@color/black"
+                                android:textSize="16sp"
+                                app:customTypeface="latoSemibold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/padding_10"
+                            android:orientation="horizontal"
+                            android:weightSum="2">
+
+                            <com.nitesh.dubaiinterview.CustomPackage.TypefacedTextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.6"
+                                android:text="Highest Bid"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"
+                                app:customTypeface="latoSemibold" />
+
+                            <com.nitesh.dubaiinterview.CustomPackage.TypefacedTextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.1"
+                                android:text=":"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"
+                                app:customTypeface="latoSemibold" />
+
+                            <com.nitesh.dubaiinterview.CustomPackage.TypefacedTextView
+                                android:id="@+id/tv_end"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text=""
+                                android:textColor="@color/black"
+                                android:textSize="16sp"
+                                app:customTypeface="latoSemibold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/padding_10"
+                            android:orientation="horizontal"
+                            android:weightSum="2">
+
+                            <com.nitesh.dubaiinterview.CustomPackage.TypefacedTextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.6"
+                                android:text="Percent change in 24HRS"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"
+                                app:customTypeface="latoSemibold" />
+
+                            <com.nitesh.dubaiinterview.CustomPackage.TypefacedTextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.1"
+                                android:text=":"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"
+                                app:customTypeface="latoSemibold" />
+
+                            <com.nitesh.dubaiinterview.CustomPackage.TypefacedTextView
+                                android:id="@+id/tv_per_change"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text=""
+                                android:textColor="@color/black"
+                                android:textSize="16sp"
+                                app:customTypeface="latoSemibold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/padding_10"
+                            android:orientation="horizontal"
+                            android:weightSum="2">
+
+                            <com.nitesh.dubaiinterview.CustomPackage.TypefacedTextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.6"
+                                android:text="Base currency in 24HRS"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"
+                                app:customTypeface="latoSemibold" />
+
+                            <com.nitesh.dubaiinterview.CustomPackage.TypefacedTextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.1"
+                                android:text=":"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"
+                                app:customTypeface="latoSemibold" />
+
+                            <com.nitesh.dubaiinterview.CustomPackage.TypefacedTextView
+                                android:id="@+id/tv_base_currency"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text=""
+                                android:textColor="@color/black"
+                                android:textSize="16sp"
+                                app:customTypeface="latoSemibold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/padding_10"
+                            android:orientation="horizontal"
+                            android:weightSum="2">
+
+                            <com.nitesh.dubaiinterview.CustomPackage.TypefacedTextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.6"
+                                android:text="Quote currency in 24HRS"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"
+                                app:customTypeface="latoSemibold" />
+
+                            <com.nitesh.dubaiinterview.CustomPackage.TypefacedTextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.1"
+                                android:text=":"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"
+                                app:customTypeface="latoSemibold" />
+
+                            <com.nitesh.dubaiinterview.CustomPackage.TypefacedTextView
+                                android:id="@+id/tv_quote_currency"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text=""
+                                android:textColor="@color/black"
+                                android:textSize="16sp"
+                                app:customTypeface="latoSemibold" />
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/padding_10"
+                            android:orientation="horizontal"
+                            android:weightSum="2">
+
+                            <com.nitesh.dubaiinterview.CustomPackage.TypefacedTextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.6"
+                                android:text="Is frozen"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"
+                                app:customTypeface="latoSemibold" />
+
+                            <com.nitesh.dubaiinterview.CustomPackage.TypefacedTextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.1"
+                                android:text=":"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"
+                                app:customTypeface="latoSemibold" />
+
+                            <com.nitesh.dubaiinterview.CustomPackage.TypefacedTextView
+                                android:id="@+id/tv_is_frozen"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text=""
+                                android:textColor="@color/black"
+                                android:textSize="16sp"
+                                app:customTypeface="latoSemibold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/padding_10"
+                            android:orientation="horizontal"
+                            android:weightSum="2">
+
+                            <com.nitesh.dubaiinterview.CustomPackage.TypefacedTextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.6"
+                                android:text="Highest trade price in 24HRS"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"
+                                app:customTypeface="latoSemibold" />
+
+                            <com.nitesh.dubaiinterview.CustomPackage.TypefacedTextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.1"
+                                android:text=":"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"
+                                app:customTypeface="latoSemibold" />
+
+                            <com.nitesh.dubaiinterview.CustomPackage.TypefacedTextView
+                                android:id="@+id/tv_highest_trade_price"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text=""
+                                android:textColor="@color/black"
+                                android:textSize="16sp"
+                                app:customTypeface="latoSemibold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/padding_10"
+                            android:orientation="horizontal"
+                            android:weightSum="2">
+
+                            <com.nitesh.dubaiinterview.CustomPackage.TypefacedTextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.6"
+                                android:text="Lowest trade price in 24HRS"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"
+                                app:customTypeface="latoSemibold" />
+
+                            <com.nitesh.dubaiinterview.CustomPackage.TypefacedTextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.1"
+                                android:text=":"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"
+                                app:customTypeface="latoSemibold" />
+
+                            <com.nitesh.dubaiinterview.CustomPackage.TypefacedTextView
+                                android:id="@+id/tv_lowest_trade_price"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text=""
+                                android:textColor="@color/black"
+                                android:textSize="16sp"
+                                app:customTypeface="latoSemibold" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp"
+                            android:orientation="horizontal"
+                            android:weightSum="2">
+
+                            <com.nitesh.dubaiinterview.CustomPackage.TypefacedTextView
+                                android:id="@+id/tv_whole"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                android:textAlignment="center"
+                                android:text="yres"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"
+                                app:customTypeface="latoSemibold" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</RelativeLayout>

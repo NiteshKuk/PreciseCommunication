@@ -1,0 +1,12 @@
+<resources>
+    <string name="filledCircleMask">\u25CF</string>
+    <string name="okBtn">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="next">Next</string>
+    <string name="INR" translatable="false">\u20B9</string>
+    <string name="Rs" translatable="false">\u20B9</string>
+    <string name="register">Register Form</string>
+    <string name="welcome_to_precise_communications_registration_screen">Welcome to Precise Communications Registration Screen</string>
+    <string name="password_incorrect">Your password must contain:At least 8 characters with following minimum combination - 1 uppercase,1 lowercase,1 numeric and 1 special characters</string>
+
+</resources>

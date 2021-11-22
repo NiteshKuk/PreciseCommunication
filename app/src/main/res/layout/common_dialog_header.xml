@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/transparent"
+        android:gravity="center_vertical"
+        android:layout_margin="3dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <com.nitesh.dubaiinterview.CustomPackage.TypefacedTextView
+                android:id="@+id/ivpreciseLogo"
+                android:textColor="@color/yellow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/bungee"
+                android:textSize="@dimen/txt_title"
+                android:text="Precise"/>
+
+        </RelativeLayout>
+
+
+
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TypefacedButton">
+        <attr name="customfont" format="enum">
+            <enum name="robotoLight" value="1" />
+            <enum name="clanproBook" value="6" />
+            <enum name="robotoRegular" value="2" />
+            <enum name="latoLight" value="9" />
+            <enum name="latoRegular" value="10" />
+            <enum name="latoSemibold" value="11" />
+            <enum name="latoBlack" value="12" />
+            <enum name="farrington7BQiqi" value="14" />
+            <enum name="helveticaNeueLight" value="15" />
+            <enum name="credCardRegular" value="16" />
+            <!--    <enum name="robotoRegular" value="2"/>
+                <enum name="robotoBold" value="3"/>
+                <enum name="nanumGothic" value="4"/>
+                <enum name="irisupc" value="5"/>
+
+                <enum name="clanproNarrBook" value="7"/>
+                <enum name="clanproNarrNews" value="8"/>-->
+        </attr>
+    </declare-styleable>
+    <attr name="customTypeface" format="enum">
+        <enum name="robotoLight" value="1" />
+        <enum name="clanproBook" value="6" />
+        <enum name="latoLight" value="9" />
+        <enum name="latoRegular" value="10" />
+        <enum name="robotoRegular" value="2" />
+        <enum name="robotoBold" value="3" />
+        <enum name="latoSemibold" value="11" />
+        <enum name="timesbd" value="12" />
+        <enum name="latoBlack" value="13" />
+        <enum name="farrington7BQiqi" value="14" />
+        <enum name="helveticaNeueLight" value="15" />
+        <enum name="credCardRegular" value="16" />
+        <enum name="clanproNarrNews" value="8"/>-->
+    </attr>
+    <declare-styleable name="TypefacedTextView">
+        <attr name="customTypeface" />
+    </declare-styleable>
+
+    <declare-styleable name="TypefacedEditText">
+        <attr name="customTypeface" />
+    </declare-styleable>
+
+    <declare-styleable name="Dialog">
+        <attr name="DialogTitleAppearance" format="reference" />
+        <attr name="DialogTitleText" format="reference|string" />
+        <attr name="DialogSpotColor" format="reference|color" />
+        <attr name="DialogSpotCount" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="PinEntryEditText">
+        <attr name="pinAnimationType" format="enum">
+            <enum name="popIn" value="0" />
+            <enum name="fromBottom" value="1" />
+            <enum name="none" value="-1" />
+        </attr>
+        <attr name="pinCharacterMask" format="string" />
+        <attr name="pinRepeatedHint" format="string" />
+        <attr name="pinLineStroke" format="dimension" />
+        <attr name="pinLineStrokeSelected" format="dimension" />
+        <attr name="pinCharacterSpacing" format="dimension" />
+        <attr name="pinTextBottomPadding" format="dimension" />
+        <attr name="pinLineColors" format="color" />
+        <attr name="pinBackgroundDrawable" format="reference" />
+        <attr name="pinBackgroundIsSquare" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="RippleView">
+        <attr name="rv_alpha" format="integer" />
+        <attr name="rv_framerate" format="integer" />
+        <attr name="rv_rippleDuration" format="integer" />
+        <attr name="rv_zoomDuration" format="integer" />
+        <attr name="rv_color" format="color" />
+        <attr name="rv_centered" format="boolean" />
+        <attr name="rv_type" format="enum">
+            <enum name="simpleRipple" value="0" />
+            <enum name="doubleRipple" value="1" />
+            <enum name="rectangle" value="2" />
+        </attr>
+        <attr name="rv_ripplePadding" format="dimension" />
+        <attr name="rv_zoom" format="boolean" />
+        <attr name="rv_zoomScale" format="float" />
+
+    </declare-styleable>
+</resources>
